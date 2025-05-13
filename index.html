@@ -4,9 +4,17 @@
       
     </head>
     <body>
-      
+      <button onclick="playAudio()">Heyyooo</button>
+      <audio style="display:none;" id="audio">
     </body>
     <script>
+      var x = document.getElementById("audio");
+
+      x.src = "ihh.mp3";
+      x.load();
+function playAudio() {
+  x.play();
+}
       
     </script>
   </html>
