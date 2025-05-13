@@ -9,9 +9,9 @@
     </body>
     <script>
       var x = document.getElementById("audio");
-
-      x.src = "ihh.mp3";
       x.load();
+      x.src = "ihh.mp3";
+      x.volume = 100;
 function playAudio() {
   x.play();
 }
